@@ -1,0 +1,126 @@
+body {
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    height: 100vh;
+    background-color: gainsboro
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand span {
+    font-size: 50px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+.brand img {
+    height: 100px;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;   	
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+.left-side {
+    background-color: none;
+    height: fit-content;
+    width: 50%;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+.right-side {
+    background-color: none;
+    position: relative;
+    width: 45%;
+    overflow: hidden;
+}
+
+button {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    background-color:pink;
+    color: black;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: black;
+    color: pink;
+    
+}
+.right-side svg {
+    transform: rotate(30deg);
+    width: 120%;
+}
+
+.right-side img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+}
+
+.left-side span {
+    color: blue;
+}
+
+.brand span {
+    color: white;
+    font-style: bold;
+}
